@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Taskbook</string>
+    <string name="login">Log In</string>
+    <string name="title_activity_task_main">TaskBook</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

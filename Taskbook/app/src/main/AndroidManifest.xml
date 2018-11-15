@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.debuggersstudio.taskbook">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/taskbooicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/taskbooicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/NotitleThem">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActvitity"
+            android:label="@string/login"></activity>
+        <activity
+            android:name=".TaskMain"
+            android:label="@string/title_activity_task_main"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
